@@ -5,7 +5,7 @@ Java Automated Test Learning
 
 ![Java Automated Test](http://p2.pstatp.com/large/pgc-image/7a2464aae82141079a59ce757f9485bd)
 
-##主要内容：
+## 主要内容：
 
 * 综述
 * 代码管理工具Git

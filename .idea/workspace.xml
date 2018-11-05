@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="761302b4-8cf7-47ce-8f9a-439e3b8dd172" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_0_0_beta1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter5/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/org/alanhou/testng/BasicAnnotation.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/org/alanhou/testng/DependencyTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/org/alanhou/testng/ExpectedException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/org/alanhou/testng/IgnoreTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/org/alanhou/testng/groups/GroupsOnClass1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/org/alanhou/testng/groups/GroupsOnClass2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/org/alanhou/testng/groups/GroupsOnClass3.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/org/alanhou/testng/groups/GroupsOnMethod.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/org/alanhou/testng/multiThread/MultiThreadOnAnnotation.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/org/alanhou/testng/multiThread/MultiThreadOnXml.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/org/alanhou/testng/parameter/DataProviderTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/org/alanhou/testng/parameter/ParameterTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/org/alanhou/testng/suite/LoginTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/org/alanhou/testng/suite/PayTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/org/alanhou/testng/suite/SuiteConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter5/src/main/resources/groupsOnClass.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter5/src/main/resources/multiThread.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter5/src/main/resources/parameter.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter5/src/main/resources/suite.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter5/src/main/java/org/alanhou/testng/TimeOutTest.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/Chapter/target/" />
@@ -52,8 +30,8 @@
       <file leaf-file-name="MultiThreadOnXml.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/org/alanhou/testng/multiThread/MultiThreadOnXml.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            <state relative-caret-position="120">
+              <caret line="8" column="75" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="75" />
               <folding>
                 <element signature="e#144#145#0" expanded="true" />
                 <element signature="e#228#229#0" expanded="true" />
@@ -66,11 +44,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="multiThread.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="multiThread.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter5/src/main/resources/multiThread.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TimeOutTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/org/alanhou/testng/TimeOutTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -98,7 +86,6 @@
       <list>
         <option value="$PROJECT_DIR$/Chapter5/pom.xml" />
         <option value="$PROJECT_DIR$/Chapter5/src/main/java/org/alanhou/testng/BasicAnnotation.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Chapter5/src/main/java/org/alanhou/testng/suite/LoginTest.java" />
         <option value="$PROJECT_DIR$/Chapter5/src/main/java/org/alanhou/testng/suite/PayTest.java" />
         <option value="$PROJECT_DIR$/Chapter5/src/main/resources/suite.xml" />
@@ -118,6 +105,8 @@
         <option value="$PROJECT_DIR$/Chapter5/src/main/resources/multiThread" />
         <option value="$PROJECT_DIR$/Chapter5/src/main/java/org/alanhou/testng/multiThread/MultiThreadOnXml.java" />
         <option value="$PROJECT_DIR$/Chapter5/src/main/resources/multiThread.xml" />
+        <option value="$PROJECT_DIR$/Chapter5/src/main/java/org/alanhou/testng/TimeOutTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -128,8 +117,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="90" />
-    <option name="y" value="173" />
+    <option name="x" value="95" />
+    <option name="y" value="113" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -203,16 +192,6 @@
               <item name="Chapter5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testng" type="462c0819:PsiDirectoryNode" />
-              <item name="multiThread" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -240,7 +219,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./workspace/learning/AutoTest/Chapter5/src/main/resources/multiThread.xml">
+  <component name="RunManager" selected="TestNG.TimeOutTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -321,38 +300,6 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="DataProviderTest.test1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.alanhou.testng.parameter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Chapter5" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="org.alanhou.testng.parameter" />
-      <option name="MAIN_CLASS_NAME" value="org.alanhou.testng.parameter.DataProviderTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
     <configuration name="DataProviderTest.test2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -398,6 +345,38 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="org.alanhou.testng.multiThread" />
       <option name="MAIN_CLASS_NAME" value="org.alanhou.testng.multiThread.MultiThreadOnAnnotation" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="TimeOutTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.alanhou.testng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Chapter5" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="org.alanhou.testng" />
+      <option name="MAIN_CLASS_NAME" value="org.alanhou.testng.TimeOutTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -479,18 +458,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="TestNG.DataProviderTest" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.DataProviderTest.test1" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.DataProviderTest.test2" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.MultiThreadOnAnnotation" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG./workspace/learning/AutoTest/Chapter5/src/main/resources/multiThread.xml" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.DataProviderTest.test2" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.MultiThreadOnAnnotation" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG./workspace/learning/AutoTest/Chapter5/src/main/resources/multiThread.xml" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.TimeOutTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG./workspace/learning/AutoTest/Chapter5/src/main/resources/multiThread.xml" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.MultiThreadOnAnnotation" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.DataProviderTest" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.DataProviderTest.test2" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.DataProviderTest.test1" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.TimeOutTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG./workspace/learning/AutoTest/Chapter5/src/main/resources/multiThread.xml" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.MultiThreadOnAnnotation" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.DataProviderTest" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.DataProviderTest.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -510,16 +489,16 @@
       <workItem from="1541309422985" duration="1547000" />
       <workItem from="1541335123793" duration="2355000" />
       <workItem from="1541343847578" duration="3463000" />
-      <workItem from="1541419403498" duration="3365000" />
+      <workItem from="1541419403498" duration="4031000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DataProviderTest - 2018.11.05 at 20h 35m 00s.xml">
-      <configuration name="DataProviderTest" configurationId="TestNG" />
+    <history-entry file="TimeOutTest - 2018.11.05 at 22h 05m 56s.xml">
+      <configuration name="TimeOutTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MultiThreadOnAnnotation - 2018.11.05 at 21h 19m 31s.xml">
-      <configuration name="MultiThreadOnAnnotation" configurationId="TestNG" />
+    <history-entry file="TimeOutTest - 2018.11.05 at 22h 07m 20s.xml">
+      <configuration name="TimeOutTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="_workspace_learning_AutoTest_Chapter5_src_main_resources_multiThread_xml - 2018.11.05 at 21h 23m 29s.xml">
       <configuration name="/workspace/learning/AutoTest/Chapter5/src/main/resources/multiThread.xml" configurationId="TestNG" />
@@ -547,10 +526,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10730000" />
+    <option name="totallyTimeSpent" value="11396000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="90" y="173" width="1440" height="877" extended-state="0" />
+    <frame x="95" y="113" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -823,16 +802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="252">
-            <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/org/alanhou/testng/BasicAnnotation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -1050,18 +1019,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/org/alanhou/testng/multiThread/MultiThreadOnAnnotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/org/alanhou/testng/multiThread/MultiThreadOnXml.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        <state relative-caret-position="120">
+          <caret line="8" column="75" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="75" />
           <folding>
             <element signature="e#144#145#0" expanded="true" />
             <element signature="e#228#229#0" expanded="true" />
@@ -1073,10 +1034,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/org/alanhou/testng/multiThread/MultiThreadOnAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter5/src/main/resources/multiThread.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="105">
+            <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/org/alanhou/testng/TimeOutTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding />
         </state>
       </provider>
