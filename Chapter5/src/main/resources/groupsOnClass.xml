@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name="suitename">
+    <test name="runAll">
+        <classes>
+            <class name="org.alanhou.testng.groups.GroupsOnClass1"></class>
+            <class name="org.alanhou.testng.groups.GroupsOnClass2"></class>
+            <class name="org.alanhou.testng.groups.GroupsOnClass3"></class>
+        </classes>
+    </test>
+
+    <test name="onlyRunStu">
+        <groups>
+            <run>
+                <include name="stu" />
+            </run>
+        </groups>
+        <classes>
+            <class name="org.alanhou.testng.groups.GroupsOnClass1"></class>
+            <class name="org.alanhou.testng.groups.GroupsOnClass2"></class>
+            <class name="org.alanhou.testng.groups.GroupsOnClass3"></class>
+        </classes>
+    </test>
+</suite>
