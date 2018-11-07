@@ -18,5 +18,7 @@ Java Automated Test Learning
 * TestNG+MyBatis实现数据校验
 * Jenkins持续集成
 
+文章链接：https://alanhou.org/java-automated-testing/
+
 Course Link:https://coding.imooc.com/class/chapter/204.html
 

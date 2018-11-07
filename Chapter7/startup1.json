@@ -1,0 +1,12 @@
+[
+  {
+    "description":"这是我们的第一个 Mock",
+    "访问链接":"http://localhost:8888/demo",
+    "request":{
+      "uri":"/demo"
+    },
+    "response":{
+      "text":"第一个 Moco 框架 Demo"
+    }
+  }
+]
