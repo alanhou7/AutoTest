@@ -1,5 +1,18 @@
 [
   {
+    "description":"这是一个会返回 cookies 信息的 get 请求",
+    "request":{
+      "uri":"/getcookies",
+      "method":"get"
+    },
+    "response":{
+      "cookies":{
+        "login":"true"
+      },
+      "text":"恭喜你成功获得 cookies 信息"
+    }
+  },
+  {
     "description":"这是一个带 cookies 信息的 GET 请求",
     "request":{
       "uri":"/get/with/cookies",
@@ -29,7 +42,7 @@
       "status":200,
       "json":{
         "jack":"success",
-        "status":1
+        "status": "1"
       }
     }
   }
