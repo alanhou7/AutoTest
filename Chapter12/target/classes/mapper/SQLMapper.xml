@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.alanhou.model">
+    <!--获取登录接口 case-->
+    <select id="loginCase" parameterType="Integer" resultType="org.alanhou.model.LoginCase">
+        select * from loginCase where id = #{id}
+    </select>
+
+    <!--添加用户接口 case-->
+    <select id="addUserCase" parameterType="Integer" resultType="org.alanhou.model.AddUserCase">
+        select * from addUserCase where id = #{id}
+    </select>
+
+    <!--获取用户信息 case-->
+    <select id="getUserInfoCase" parameterType="Integer" resultType="org.alanhou.model.GetUserInfoCase">
+        select * from getUserInfoCase where id = #{id}
+    </select>
+
+    <!--获取用户列表 case-->
+    <select id="getUserListCase" parameterType="Integer" resultType="org.alanhou.model.GetUserListCase">
+        select * from getUserListCase where id = #{id}
+    </select>
+
+    <!--更新/删除用户 case-->
+    <select id="updateUserInfoCase" parameterType="Integer" resultType="org.alanhou.model.UpdateUserInfoCase">
+        select * from updateUserInfoCase where id = #{id}
+    </select>
+</mapper>

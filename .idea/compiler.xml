@@ -9,6 +9,7 @@
         <module name="Chapter" />
         <module name="Chapter10" />
         <module name="Chapter11" />
+        <module name="Chapter12" />
         <module name="Chapter5" />
         <module name="Chapter6" />
         <module name="Chapter9" />
@@ -17,6 +18,7 @@
     <bytecodeTargetLevel>
       <module name="Chapter10" target="1.8" />
       <module name="Chapter11" target="1.5" />
+      <module name="Chapter12" target="1.6" />
       <module name="Chapter5" target="1.5" />
       <module name="Chapter6" target="1.6" />
       <module name="Chapter9" target="1.5" />

@@ -785,3 +785,5 @@ Caused by: org.xml.sax.SAXParseException: Document root element "mapper", must m
 2018-11-11 15:15:58.414 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
 2018-11-11 15:15:58.414 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
 2018-11-11 15:15:58.429 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
+2018-11-11 15:43:49.130 [Thread-8] INFO  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@55182842: startup date [Sun Nov 11 15:15:48 CST 2018]; root of context hierarchy
+2018-11-11 15:43:49.132 [Thread-8] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
