@@ -1,7 +1,7 @@
 package org.alanhou.config;
 
 import org.apache.http.client.CookieStore;
-import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.DefaultHttpClient;
 
 public class TestConfig {
     public static String loginUrl;
@@ -11,6 +11,8 @@ public class TestConfig {
     public static String addUserUrl;
 
     // DefaultHttpClient deprecated 替换
-    public static CloseableHttpClient defaultHttpClient;
+    public static DefaultHttpClient defaultHttpClient;
+//    public static HttpClient defaultHttpClient;
+//    public static HttpClientBuilder httpClientBuilder;
     public static CookieStore store;
 }
